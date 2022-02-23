@@ -41,13 +41,15 @@ button{
     background-color: #24d18f;
     padding: 20px;
     border-radius: 4px;
+    margin-block-end: 30px;
 }
 /*Randomize Passwords*/
-.RandomPass{
-    display: flex;
-    margin-top: 50px;
+.RandomPass-grid{
+    display: grid;
+    gap: 1.4rem;
+
 }
-.RandomPass p{
+.RandomPass-grid p{
     color: white;
     font-weight: bold;
     font-size: 20px;
